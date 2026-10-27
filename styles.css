@@ -11,15 +11,15 @@
 
 /* Define reusable colors, spacing, shape, and content width. */
 :root {
-  color-scheme: dark;
-  --color-bg: #0b1020;
-  --color-surface: #151d30;
-  --color-text: #f1f5ff;
-  --color-muted: #b7c2d8;
-  --color-accent: #b4a3ff;
-  --color-border: #2a3650;
-  --color-accent-surface: #292344;
-  --color-accent-text: #d3c8ff;
+  color-scheme: light;
+  --color-bg: #f4f6fb;
+  --color-surface: #ffffff;
+  --color-text: #172033;
+  --color-muted: #5d687d;
+  --color-accent: #5b4bdb;
+  --color-border: #e8ebf2;
+  --color-accent-surface: #f2f0ff;
+  --color-accent-text: #4033a8;
   --space-1: 0.25rem;
   --space-2: 0.5rem;
   --space-3: 0.75rem;
@@ -125,8 +125,8 @@ button {
   justify-content: space-between;
   gap: var(--space-3);
   padding: var(--space-3) var(--space-4);
-  border-bottom: 1px solid var(--color-border);
-  background: rgb(11 16 32 / 96%);
+  border-bottom: 1px solid #e4e8f0;
+  background: rgb(255 255 255 / 96%);
   backdrop-filter: blur(12px);
 }
 
@@ -141,7 +141,7 @@ button {
   align-items: center;
   gap: var(--space-2);
   padding: var(--space-2) var(--space-3);
-  border: 1px solid var(--color-border);
+  border: 1px solid #dedbff;
   border-radius: var(--space-2);
   background: var(--color-surface);
   color: var(--color-text);
@@ -230,7 +230,7 @@ main > section {
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
   background: var(--color-surface);
-  box-shadow: 0 8px 24px rgb(0 0 0 / 18%);
+  box-shadow: 0 8px 24px rgb(23 32 51 / 4%);
   scroll-margin-top: 8rem;
 }
 
@@ -240,9 +240,9 @@ main > section {
   aspect-ratio: 1;
   margin-bottom: var(--space-4);
   padding: var(--space-3);
-  border: 3px solid var(--color-border);
+  border: 3px solid #e9e7ff;
   border-radius: 50%;
-  background: var(--color-accent-surface);
+  background: #eeeff5;
   font-size: 0.75rem;
   object-fit: cover;
   text-align: center;
@@ -265,7 +265,7 @@ main > section {
 
 #skills li {
   padding: var(--space-2) var(--space-3);
-  border: 1px solid var(--color-border);
+  border: 1px solid #dedbff;
   border-radius: 999px;
   background: var(--color-accent-surface);
   color: var(--color-accent-text);
